@@ -27,6 +27,13 @@
 	contains = list(/obj/item/gun/ballistic/vampire/revolver)
 	crate_name = "weapon crate"
 
+/datum/supply_pack/vampire/glock
+	name = "Weapon (1911A1)"
+	desc = "Contains a 1911A1 handgun."
+	cost = 300
+	contains = list(/obj/item/gun/ballistic/automatic/vampire/glock19)
+	crate_name = "weapon crate"
+
 /datum/supply_pack/vampire/weapondeagle
 	name = "Weapon (desert eagle)"
 	desc = "Contains a desert eagle."
