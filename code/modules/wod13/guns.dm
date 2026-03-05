@@ -23,7 +23,7 @@
 	max_ammo = 6
 
 /obj/item/gun/ballistic/vampire/revolver
-	name = "\improper magnum revolver"
+	name = "\improper S&W Model 29"
 	desc = "Feelin' lucky, punk?"
 	icon_state = "revolver"
 	inhand_icon_state = "revolver"
@@ -107,7 +107,7 @@
 
 
 /obj/item/gun/ballistic/vampire/revolver/snub
-	name = "\improper snub-nosed revolver"
+	name = "\improper S&W Model 10"
 	desc = "a cheap Saturday night special revolver. Sometimes called a 'purse gun'. It takes 9mm ammo."
 	icon_state = "revolver_snub"
 	inhand_icon_state = "revolver_snub"
@@ -207,7 +207,7 @@
 	multiple_sprites = AMMO_BOX_FULL_EMPTY
 
 /obj/item/gun/ballistic/automatic/vampire/m1911
-	name = "\improper Colt 1911"
+	name = "\improper Colt 1911A1"
 	desc = "A reliable .45 ACP handgun."
 	icon_state = "m1911"
 	inhand_icon_state = "m1911"
@@ -248,7 +248,7 @@
 	multiple_sprites = AMMO_BOX_FULL_EMPTY
 
 /obj/item/gun/ballistic/automatic/vampire/glock19
-	name = "\improper Brokk 19"
+	name = "\improper Glock 18"
 	desc = "Burst fire 9mm handgun."
 	icon_state = "glock19"
 	inhand_icon_state = "glock19"
@@ -289,7 +289,7 @@
 	multiple_sprites = AMMO_BOX_FULL_EMPTY
 
 /obj/item/gun/ballistic/automatic/vampire/glock21
-	name = "\improper Brokk 21"
+	name = "\improper Glock 21"
 	desc = "Burst fire 45 ACP handgun."
 	icon_state = "glock19"
 	inhand_icon_state = "glock19"
@@ -317,7 +317,7 @@
 	AddComponent(/datum/component/selling, 150, "glock21", FALSE)
 
 /obj/item/gun/ballistic/automatic/vampire/beretta
-	name = "\improper Elite 92G"
+	name = "\improper Beretta 92FS"
 	desc = "A 9mm pistol favored among law enforcement and criminal alike due to it's use in action movies. Often, it is wielded in pairs."
 	icon_state = "beretta"
 	inhand_icon_state = "beretta"
@@ -389,7 +389,7 @@
 	multiple_sprites = AMMO_BOX_FULL_EMPTY
 
 /obj/item/gun/ballistic/automatic/vampire/uzi
-	name = "\improper Killamatic Uzi"
+	name = "\improper Mini Uzi"
 	desc = "The most sold submachine gun ever made. Open-bolt, blowback perfection. Uses 9mm ammo."
 	icon_state = "uzi"
 	inhand_icon_state = "uzi"
@@ -555,8 +555,8 @@
 	AddComponent(/datum/component/selling, 250, "ar15", FALSE)
 
 /obj/item/gun/ballistic/automatic/vampire/huntrifle
-	name = "hunting rifle"
-	desc = "A semi-automatic hunting rifle, favored by game hunters and rangers alike. Uses 5.56 ammo."
+	name = "Ruger Mini-14"
+	desc = "A semi-automatic rifle, favored by game hunters and rangers alike. Uses 5.56 ammo."
 	icon = 'code/modules/wod13/48x32weapons.dmi'
 	icon_state = "huntrifle"
 	inhand_icon_state = "huntrifle"
@@ -665,7 +665,7 @@
 	multiple_sprites = AMMO_BOX_FULL_EMPTY
 
 /obj/item/gun/ballistic/automatic/vampire/thompson
-	name = "\improper Thompson Submachine Gun"
+	name = "\improper Thompson Submachine Gun M1928A1"
 	desc = "\"Arrivederci, you dumb motherfucker.\""
 	icon = 'code/modules/wod13/48x32weapons.dmi'
 	icon_state = "thompson"
@@ -779,7 +779,7 @@
 	masquerade_violating = FALSE
 
 /obj/item/gun/ballistic/shotgun/vampire
-	name = "shotgun"
+	name = "Remington Model 870"
 	desc = "A traditional shotgun with wood furniture and a six-round tube magazine."
 	icon = 'code/modules/wod13/48x32weapons.dmi'
 	lefthand_file = 'code/modules/wod13/righthand.dmi'
@@ -814,7 +814,7 @@
 	multiple_sprites = AMMO_BOX_FULL_EMPTY
 
 /obj/item/gun/ballistic/automatic/vampire/autoshotgun
-	name = "\improper Jaegerspas-XV"
+	name = "\improper Franchi SPAS-15"
 	desc = "A semi-automatic shotgun. It looks more like an assault rifle than a shotgun and fires at a deadly pace."
 	icon = 'code/modules/wod13/48x32weapons.dmi'
 	icon_state = "spas15"
