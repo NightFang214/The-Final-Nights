@@ -38,15 +38,15 @@
 	crate_name = "weapon crate"
 
 /datum/supply_pack/vampire/glock
-	name = "Weapon (Brokk19)"
-	desc = "Contains a Brokk19 handgun."
+	name = "Weapon (Glock 18)"
+	desc = "Contains a Glock 18 handgun."
 	cost = 600
 	contains = list(/obj/item/gun/ballistic/automatic/vampire/glock19)
 	crate_name = "weapon crate"
 
 /datum/supply_pack/vampire/beretta
-	name = "Weapon (Dual Elite 92G)"
-	desc = "Contains a pair of Elite 92G handguns."
+	name = "Weapon (Dual Beretta 92FSs)"
+	desc = "Contains a pair of eretta 92FS handguns."
 	cost = 900
 	contains = list(/obj/item/gun/ballistic/automatic/vampire/beretta = 2)
 	crate_name = "weapon crate"
@@ -90,8 +90,8 @@
 	crate_name = "weapon crate"
 
 /datum/supply_pack/vampire/weaponrifle
-	name = "Weapon (assault rifle)"
-	desc = "Contains an assault rifle."
+	name = "Weapon (AR-15 Carbine)"
+	desc = "Contains an AR-15 Carbine."
 	cost = 3000
 	contains = list(
 		/obj/item/gun/ballistic/automatic/vampire/ar15,
